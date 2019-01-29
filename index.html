@@ -41,7 +41,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">日历</a>
+            <a href="#message">留言</a>
           </li>
           <li>
             <a href="#">联系方式</a>
@@ -168,7 +168,7 @@
       <div class="swiper-button-next"></div>
     </div>
   </section>
-  <section class="message">
+  <section data-x id="message" class="message" >
     <h2>留言</h2>
     <ol id="messageList">
     </ol>
@@ -182,11 +182,15 @@
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+  <script src="./js/base/model.js"></script>
+  <script src="./js/base/view.js"></script>
+  <script src="./js/base/controller.js"></script>
   <script src="./js/smoothly-navigation.js"></script>
   <script src="./js/init-swiper.js"></script>
   <script src="./js/auto-slide-up.js"></script>
   <script src="./js/sticky-topbar.js"></script>
   <script src="./js/message.js"></script>
+
 </body>
 
 </html>
