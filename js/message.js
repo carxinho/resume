@@ -1,7 +1,7 @@
 !function () {
-    var model = Model({resourceName:'Message'})
-    var view = View('section.message')
-    var controller = Controller({
+    let model = Model({resourceName:'Message'})
+    let view = View('section.message')
+    let controller = Controller({
         init: function (view, model) {
             this.messageList = view.querySelector('#messageList')
             this.form = view.querySelector('#postMessageForm')
