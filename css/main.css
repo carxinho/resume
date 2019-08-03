@@ -154,7 +154,9 @@ ol {
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); }
 
 .pictureAndText {
-  padding: 50px; }
+  padding: 50px; 
+  position: relative;
+}
 
 .picture {
   float: left; }
@@ -166,7 +168,8 @@ ol {
 .text {
   float: left;
   margin-left: 65px;
-  width: 470px; }
+  width: 470px; 
+}
 
 .welcome {
   background-color: #E6686A;
@@ -341,13 +344,16 @@ section.portfolio .works > .small {
   margin: 10px auto;
 }
 
-.contentMessage img{
+.wechat img{
   padding-top: 10px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top:25px;
+  right: 55px;
 }
 
 section.message ol {
