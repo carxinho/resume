@@ -35,6 +35,7 @@
                 let li = document.createElement('li')
                 li.innerText = `${objects.attributes.name}:${objects.attributes.content}`
                 let messageList = document.querySelector('#messageList')
+                messageList.insertBefore(li, messageList.lastChild);
                 messageList.appendChild(li)
                 myForm.querySelector('input[name = content]').value = ''
             })
