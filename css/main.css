@@ -137,7 +137,7 @@ ol {
   color: #9a9da2; }
 
 .banner {
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg.webp);
   height: 515px;
   background-position: center center;
   background-size: cover; }
@@ -344,18 +344,6 @@ section.portfolio .works > .small {
   margin: 10px auto;
 }
 
-.wechat img{
-  padding-top: 10px;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top:25px;
-  right: 55px;
-}
-
 section.message ol {
   max-width: 650px;
   margin: 0 auto;
@@ -405,3 +393,5 @@ section.message ol li {
   .commitInput{
     padding: 0 5px;
   }
+
+  
